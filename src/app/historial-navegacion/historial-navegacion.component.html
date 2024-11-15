@@ -1,0 +1,18 @@
+<h1>Ejercicio 3: Componente Navegación de Historial</h1>
+<div class="contenido">
+  <button
+
+    (click)="irAtras()"
+    [disabled]="!puedeIrAtras"
+    [class.disabled]="!puedeIrAtras">
+   Atrás
+  </button>
+
+  <button
+
+    (click)="irAlante()"
+    [disabled]="!puedeIrAlante"
+    [class.disabled]="!puedeIrAlante">
+    Alante
+  </button>
+</div>
